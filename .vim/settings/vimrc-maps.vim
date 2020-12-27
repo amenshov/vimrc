@@ -1,3 +1,6 @@
+" https://vi.stackexchange.com/questions/24925/usage-of-timeoutlen-and-ttimeoutlen
+set timeout timeoutlen=500
+
 " fast saving
 nmap <leader>w :w!<cr>
 

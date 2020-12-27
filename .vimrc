@@ -15,12 +15,16 @@ if has('persistent_undo')
     set undofile
 endif
 
+set hidden
+
 " scrolling
 set scrolloff=10
 
 " security
 set modelines=0
 set nomodeline
+
+set updatetime=750
 
 " basic settings and plugins
 source ~/.vim/plugins.vim
