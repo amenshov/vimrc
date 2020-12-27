@@ -10,5 +10,6 @@ $ docker-compose build
 $ docker-compose run vimrc
 ```
 
-To install, copy `.vim` and `.vimrc` into your home folder.
+To install, clone/download the git repo and run `install.sh`.
+Note that existing content of `~/.vim` and `~/.vimrc` is overwritten by `install.sh`.
 

@@ -1,4 +1,4 @@
 " show hidden files by default
 let NERDTreeShowHidden=1
-let g:NERDTreeWinSize = 50
+let g:NERDTreeWinSize=50
 

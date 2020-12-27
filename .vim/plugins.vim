@@ -3,14 +3,14 @@ set nocompatible
 
 " automatically download cscope maps
 if empty(glob('~/.vim/cscope_maps.vim'))
-  silent !curl -fLo ~/.vim/cscope_maps.vim http://cscope.sourceforge.net/cscope_maps.vim
+    silent !curl -fLo ~/.vim/cscope_maps.vim http://cscope.sourceforge.net/cscope_maps.vim
 endif
 
 " automatically download vim-plug
 if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+        \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
 " list of plugins

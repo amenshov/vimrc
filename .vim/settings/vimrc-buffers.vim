@@ -11,9 +11,9 @@ nnoremap <Leader>g :e#<CR>
 
 nnoremap <Leader>0 :10b<CR>
 
-let c = 1
-while c <= 500
-  execute 'nnoremap <Leader>' . c . ' :' . c . 'b\<CR>'
-  let c += 1
+let s:c = 1
+while s:c <= 500
+  execute "nnoremap <Leader>" . s:c . " :" . s:c . "b\<CR>"
+  let s:c += 1
 endwhile
 
