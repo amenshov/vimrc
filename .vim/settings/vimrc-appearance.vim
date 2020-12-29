@@ -19,3 +19,7 @@ if has('autocmd')
   autocmd GUIEnter * set visualbell t_vb=
 endif
 
+" colorscheme
+set termguicolors
+set background=dark
+colorscheme gruvbox
