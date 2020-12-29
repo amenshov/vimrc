@@ -15,11 +15,10 @@ set wrapmargin=0
 
 " https://vim.fandom.com/wiki/Disable_beeping
 set noerrorbells  visualbell t_vb=
-if has('autocmd')
-  autocmd GUIEnter * set visualbell t_vb=
-endif
+autocmd GUIEnter * set visualbell t_vb=
 
 " colorscheme
 set termguicolors
 set background=dark
-colorscheme gruvbox
+colorscheme solarized8_flat
+

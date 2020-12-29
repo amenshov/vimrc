@@ -22,3 +22,6 @@ nmap <silent> // :nohlsearch<CR>
 " quick fix window
 noremap <F10> :copen 20<CR>
 
+" https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim
+noremap <Leader>y "*y
+
