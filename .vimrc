@@ -16,6 +16,8 @@ if has('persistent_undo')
 endif
 
 set hidden
+" Search down into subfolders
+set path+=**
 
 " scrolling
 set scrolloff=10
