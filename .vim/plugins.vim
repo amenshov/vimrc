@@ -19,9 +19,9 @@ call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'lifepillar/vim-solarized8'
-Plug 'majutsushi/tagbar'
+Plug 'majutsushi/tagbar', { 'on': ['Tagbar', 'TagbarOpen', 'TagbarToggle'] }
 Plug 'MattesGroeger/vim-bookmarks'
-Plug 'preservim/nerdtree'
+Plug 'preservim/nerdtree', { 'on': ['NERDTree', 'NERDTreeToggle'] }
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
